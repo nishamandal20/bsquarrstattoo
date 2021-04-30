@@ -1,0 +1,27 @@
+/*bsquarrstattoo service*/
+.service{
+    background-color: rgb(100, 101, 104);
+    padding-bottom: 20px;
+    color: white;
+}
+.service h2{
+    background-color: rgb(66, 62, 62);
+    padding: 15px;
+    color: whitesmoke;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+.service h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.service li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 65px;
+}
+.service h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 65px;
+    margin-top: 20px;
+}

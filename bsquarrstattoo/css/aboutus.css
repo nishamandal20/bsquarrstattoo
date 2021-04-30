@@ -1,0 +1,154 @@
+.aboutus {
+    background-color: rgb(168, 177, 168);
+    padding: 15px;
+    text-align: center;
+  }
+
+  .aboutus-des{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .aboutus-des p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 20%;
+    font-size: larger;
+  }
+  
+.artist{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(124, 128, 124);
+  padding: 50px;
+}
+.artist .card img{
+  width: 100%;
+  height: 500px;
+}
+.bestartist h3{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.bestartist .card img{
+  width: 100%;
+  height: 250px; 
+}
+ /* font awesome icons */
+ .fa {
+  padding: 8px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 4px;
+  border-radius: 50%;
+  }
+  .fa:hover {
+  opacity: 0.6;
+  }
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  }
+  .fa-instagram {
+  background: #3a1703;
+  color: white;
+  }
+  .fa-pinterest {
+  background: #cb2027;
+  color: white;
+  }
+
+
+.aboutend{
+  background-color:  rgb(161, 167, 164);
+  padding: 50px;
+  padding-bottom: 100px;
+  margin-top: 30px;
+}
+.aboutend h5{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutend h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutend p{
+  text-align: center;
+  font-size: large;
+}
+.follow .btn1{
+    height: 40px;
+    width: 120px;
+    color:black;
+    border: none;
+    font-size: large;
+    background-color: rgb(6, 133, 63);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.btn1:hover{
+    color: white;
+    background-color: rgb(7, 116, 39);
+}
+.form h5{
+  text-align: left;
+}
+.form .btn1{
+  height: 40px;
+  width: 120px;
+  color:black;
+  border: none;
+  font-size: large;
+  background-color: rgb(6, 133, 63);
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.btn1:hover{
+  color: white;
+  background-color: rgb(7, 116, 39);
+}
+
+
+.column img {
+  margin-top: 20px;
+  vertical-align: middle;
+  width: 100%;
+  height: 140px;
+}
+
+.viewoninsta .btn{
+  height: 40px;
+  width: 250px;
+  color:black;
+  border: none;
+  font-size: large;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  border-style: solid;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: -220px;
+}
+.btn:hover{
+  color: white;
+  background-color: transparent;
+}

@@ -1,0 +1,382 @@
+/*bsquarrstattoo*/
+
+/*top css*/
+.top{
+    font-weight: bolder;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black; 
+}
+.top #topname{
+    margin-left: 15px;
+    padding:10px; 
+}
+/*end of top css*/
+
+/*start of navbar css*/
+.navbar .navbar-brand img{
+    margin-right: 5px;
+    height: 70px;
+    width: 120px;
+}
+.navbar #bsq{
+    margin-right: 70px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-family: monospace;
+} 
+
+.navbar{
+    margin-top: -16px;
+    color: white;
+
+}
+
+.navbar .nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin-right: 20px;
+    padding:15px;
+    
+}
+.navbar ul li a:hover{
+   color: black !important;
+   transition: 0.5s;
+   border-bottom: 2px solid;
+}
+.active a{
+    border-bottom: 2px solid;
+} 
+
+.navbar .navbar-toggler{
+    background-color:black;
+    
+}
+/*end of navbar css*/
+
+/*start of slider css*/
+.carousel-inner img{
+    height:80%;
+}
+
+/*end of slider css*/
+
+/*start of  After Slide Description css*/
+.header1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+ #description{
+    text-align: center;
+    font-size: large;
+}
+/*End of  After Slide Description css*/
+
+/*start of  third part css*/
+
+.left{
+    margin-top: 180px;
+    margin-left: 30px;
+    background-color: rgb(224, 219, 219);
+    padding: 40px;
+
+}
+#s1{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#s2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    margin-top: 30px;
+}
+.right img{
+    margin-left: 36px;
+    height: 95%;
+    width: 95%;
+}
+.background{
+    background-color: rgb(233, 233, 247);
+    height: 106%;
+    margin-top: 50px;
+}
+/*start of  forth part css*/
+#para1{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#para2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3%;
+}
+.click{
+    text-align: center;
+}
+#para3{
+    text-align: center;
+    color: grey;
+    font-size: large;
+    margin-bottom: 3%;
+    margin-top: 2px;
+}
+.btn1{
+    height: 50px;
+    width: 200px;
+    color:white;
+    border: none;
+    font-size: large;
+    background-color: rgb(95, 92, 92);
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.btn1:hover{
+    color: black;
+    background-color: rgb(68, 61, 61);
+}
+/*end of  forth part css*/
+
+/*start of fixed social media icon css*/
+.icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    width: 200px;
+    position: fixed;
+    top: 70%;
+    left: 0%;
+  }
+  .icons a{
+      text-transform: uppercase;
+      padding: 10px;
+      font-size: 20px;
+      font-family: sans-serif;
+      margin: 2px;
+      text-align: right;
+      border-radius: 0px 50px 50px 0px;
+      transform: translate(-140px, 0px);
+      transition: all 0.5s;
+  }
+  .icons a:hover{
+    transform: translate(0px, 0px);
+    color: white;
+    text-decoration: none;
+
+  }
+  .icons a i{
+      margin-left: 20px;
+      background-color: white;
+      height: 40px;
+      width: 40px;
+      color:black;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      transition: all 1s;
+  }
+  .icons a:hover i{
+      transform: rotate(360deg);
+
+  }
+  .icons a i.fa-facebook{
+      color:rgb(9, 120, 247);
+  }
+  .icons a i.fa-youtube{
+    color:rgb(230, 9, 9);
+}
+.icons a i.fa-instagram{
+    color:rgb(97, 34, 10);
+}
+
+  .facebook{
+      background-color: rgb(9, 120, 247);
+      color: white;
+  }
+  .youtube{
+    background-color: rgb(230, 9, 9);
+    color: white;
+}
+.instagram{
+    background-color: rgb(97, 34, 10);
+    color: white;
+}
+/*end of fixed social media icon css*/
+
+
+/*start of video section css*/
+
+.h2{
+    text-align: center;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.video iframe{
+    width:90%;
+    height:110%;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.heading1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.vpara{
+    justify-content: right;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+/*end of video section css*/
+
+
+/*Start of testimonials css*/
+
+.testimonials
+{
+    background-color: rgb(241, 202, 128);
+    margin-left: 60px;
+    padding-bottom: 50px;
+}
+.testimonials h1{
+    margin-top: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.testimonials h6{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.testimonials .card1{
+    background-color:  rgb(223, 165, 57);
+    border: none;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    
+}
+.testimonials .card{
+    background-color:  rgb(223, 165, 57);
+    border: none;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+.card .card-img-top{
+    border-radius: 50%;
+    width: 150px;
+    margin-left: 25%; 
+    
+}
+
+/*End of testimonials css*/
+
+/* font awesome icons */
+.media .fa{
+    padding: 8px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 4px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    }
+    .fa:hover {
+    opacity: 0.6;
+    }
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    .fa-instagram {
+    background: #3a1703;
+    color: white;
+    }
+    .fa-pinterest {
+    background: #cb2027;
+    color: white;
+    }
+    .fa-youtube {
+    background: #fa3c43;
+    color: white;
+    }
+/*end of font awesome icons */
+
+/*start of contact us*/
+
+.contact{
+    background-color: rgb(94, 87, 87);
+    margin-left: 60px;
+    margin-top: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+    .heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    border-bottom :3px dotted #bbb ;
+    }
+    .heading2{
+    text-align: center;
+    }
+    #para2{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .icon{
+    font-family: monospace;
+    font-size: 16px;
+    }
+    hr{
+    width: 100%;
+    }
+    .media a{
+    margin:10px;
+    margin-bottom: 20px;
+    }
+    #Timings{
+    margin-bottom: 15px;
+    }
+    .days{
+    margin: 3px;
+    }
+/*end of contact us*/
+.map{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
